@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #dddddd;
+    font-family: "Work Sans", sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 996px;
+    background-color: white;
+    margin: 0 auto;
+}
